@@ -4,7 +4,7 @@ OBJ = $(SRC:.c=.o)
 NAME = 
 TMS = demo1.c
 TMO = $(TMS:.c=.o)
-TMN = d1
+TMN = main
 LIBS =
 OPENCV_FLAGS = `pkg-config opencv --cflags --libs`
 LIBPATH = .
